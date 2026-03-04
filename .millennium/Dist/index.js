@@ -126,7 +126,7 @@ let PluginEntryPointMain = function() { var millennium_main = (function (exports
         console.log('[SADH] Window created:', context);
     }
     const SettingsContent = () => {
-        return (jsxRuntime.jsx(client.Field, { label: "Steam Availability & Deals Hub", description: "Open any game's Steam store page to see the Availability & Deals panel in the right column.", icon: jsxRuntime.jsx(client.IconsModule.Settings, {}), bottomSeparator: "standard", focusable: true, children: jsxRuntime.jsx(client.DialogButton, { onClick: () => console.log('[SADH] clicked'), children: "About" }) }));
+        return (jsxRuntime.jsx(client.Field, { label: "Steam Availability & Deals Hub", description: "Open any game's Steam store page to see the Availability & Deals.", icon: jsxRuntime.jsx(client.IconsModule.Settings, {}), bottomSeparator: "standard", focusable: true, children: jsxRuntime.jsx(client.DialogButton, { onClick: () => console.log('[SADH] clicked'), children: "About" }) }));
     };
     var index = client.definePlugin(() => {
         client.Millennium.AddWindowCreateHook(windowCreated);
