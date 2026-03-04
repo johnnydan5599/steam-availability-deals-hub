@@ -1,0 +1,10 @@
+{
+  "$schema": "https://raw.githubusercontent.com/SteamClientHomebrew/Millennium/main/src/sys/plugin-schema.json",
+  "name": "steam-availability-deals-hub",
+  "common_name": "Steam Availability & Deals Hub",
+  "description": "Adds Availability (PCGamingWiki, SteamDB, HowLongToBeat + custom) and Deals (GOG, Epic, Humble, etc.) search buttons on every Steam store page.",
+  "version": "1.0.0",
+  "backendType": "lua",
+  "author": "johnnydan5599",
+  "thumbnail": "https://raw.githubusercontent.com/johnnydan5599/steam-availability-deals-hub/main/thumbnail.jpg"
+}
